@@ -1,5 +1,4 @@
-import java.sql.Date;
-
+import java.util.Date;
 
 public class Student {
     String name;
@@ -10,12 +9,12 @@ public class Student {
 
     public Student() { }
 
-    public Student(String name, int age, String classNm, String gen, Date birth) { 
+    public Student(String name, int age, String classNm, String gen, Date date) { 
         this.name = name;
         this.age = age;
         this.classNm = classNm;
         this.gen = gen;
-        this.birth = birth;
+        this.birth = date;
     }
 
     public void setName(String name) {
